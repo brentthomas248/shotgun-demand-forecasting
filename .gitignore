@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_meta/
+
+# PySpark
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+
+# Processed data (reproducible from raw)
+data/processed/
+data/features/
+
+# DO NOT ignore data/raw/ — raw data is tracked
+
+# Trained models (large binary files)
+models/trained/
+models/configs/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local tooling config
+.local/
+
+# Lock files
+uv.lock
+
+# Environment files
+.env
+.env.local
+
+# Agentic / internal artifacts (not part of submission)
+HANDOFF.md
+ROADMAP.md
+specs/
+agent-progress.md
+notebooks/logs/
+
+# Learning / scratch notebooks (not part of submission)
+notebooks/06_project_deep_dive.ipynb
+
+# Presentation recording artifacts
+deliverables/presentation/script.md
+deliverables/presentation/*.pptx
+
+# Cache directories
+.pytest_cache/
+.ruff_cache/

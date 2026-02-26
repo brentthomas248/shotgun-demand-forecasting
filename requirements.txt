@@ -1,0 +1,34 @@
+# Shotgun Demand Forecasting — Python Dependencies
+# CIS 531/731 Term Project
+# Install: pip install -r requirements.txt
+
+# Data pipeline
+pyspark>=3.5.0
+pandas>=2.2.0
+numpy>=1.26.0
+pyarrow>=15.0.0
+
+# Machine learning
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.3.0
+statsmodels>=0.14.0
+
+# Statistical testing
+scipy>=1.12.0
+
+# Hyperparameter optimization
+optuna>=3.5.0
+
+# Visualization
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Configuration
+pyyaml>=6.0
+
+# Notebooks
+jupyter>=1.0.0
+
+# Testing
+pytest>=8.0.0
